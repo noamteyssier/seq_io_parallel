@@ -13,7 +13,7 @@ keywords = ["bioinformatics", "fasta", "fastq", "parallel", "map-reduce"]
 [dependencies]
 anyhow = "1.0.95"
 crossbeam-channel = "0.5.14"
-seq_io = "0.3.2"
+seq_io = { git = "https://github.com/noamteyssier/seq_io", branch = "main" }
 parking_lot = "0.12.3"
 
 [dev-dependencies]
